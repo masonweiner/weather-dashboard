@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --lightBlue: #2bb9e4;
+  --lightGreen: #2be4b2;
+  --darkBlue: #2b5de4;
+}
+
+.jumbotron {
+  color: var(--lightGreen);
+  background-color: var(--darkBlue);
+  border-bottom: solid 5px;
+}
